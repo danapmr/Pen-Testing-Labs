@@ -1,12 +1,23 @@
-# Pen-Testing Labs 🚀
+# Pen-Testing Labs
 
-Hands-on cybersecurity practice for junior pen-tester roles.
+> **Junior Pen-Tester Portfolio**  
+> Hands-on labs with **real exploits**, **screenshots**, and **documentation**
 
-## Lab 1: Metasploit on Metasploitable 2
-[View Report →](Lab1.md)
+---
 
-- Fixed DB connection
-- Scanned services with `db_nmap`
-- Exploited **VSFTPD backdoor** → **root shell**!
+## Lab 1: Metasploit + Metasploitable 2
+[View Full Report →](Lab1.md)
 
-*Inspired by Fortinet webinar on proactive defense.*
+**Achievements:**
+- Connected Metasploit PostgreSQL database
+- Scanned target with `db_nmap -sV`
+- Exploited **VSFTPD 2.3.4 backdoor**
+- Gained **root shell** in < 5 minutes
+
+*Inspired by Fortinet webinar: Reducing SOC detection time from 21 days → real-time*
+
+---
+
+**Tech Stack:** Kali Linux • VirtualBox • Metasploit • Nmap • Burp Suite (planned)
+
+**Next:** Lab 2 – SMB MS08-067 (WannaCry precursor)
